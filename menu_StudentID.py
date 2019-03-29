@@ -103,15 +103,19 @@ def nerdRating(studentscore):
     if(studentscore < 1):
         return 'NerdLite'
     elif (studentscore<10 ):
-        return 'Nerdlinger'
+        return 'Nerdling'
     elif (studentscore<100 ):
-        return 'Nerdl'
+        return 'Nerdlinge'
     elif (studentscore < 500 ):
-        return 'Nerdington'
+        return 'Nerd'
     elif (studentscore <1000):
-        return 'Nerdrometa'
+        return 'Nerdington'
     elif (studentscore < 2000):
+        return 'Nerdometa'
+    elif(studentscore >= 2000):
         return 'Nerd Supreme'
+    else :
+        return rating;
 
 
 

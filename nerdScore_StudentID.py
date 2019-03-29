@@ -27,6 +27,6 @@ if __name__ == '__main__':
     try:
         print(calculateSkillEquation(FandomScore, HobbiesScore, SportsNum))
 
-    except e:
+    except Exception as e:
         print(e)
         raise
