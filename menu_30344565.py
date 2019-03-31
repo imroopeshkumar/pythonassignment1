@@ -5,7 +5,7 @@
 # Please write your own program here
 import sys
 import os
-import nerdScore_StudentID as nerdscore
+import nerdScore_30344565 as nerdscore
 
 menuOptions = {1: 'name', 2: 'Fandom_Score', 3: 'Hobbies_Score', 4: 'NoOfSports', 5: 'CalculateNerdScore', 6: 'PrintRating'}
 menuInput = None;
