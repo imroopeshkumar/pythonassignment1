@@ -10,11 +10,11 @@ def calculateSkillEquation(FandomScore, HobbiesScore, SportsNum):
 
     x = FandomScore
     y = HobbiesScore
-    z = SportsNum;
+    z = SportsNum
     try:
         skillScore = (((((y * y) * 42) / (z + 1))) ** (1 / 2))*x
     except:
-        print('error calculating result')
+        print('error calculating result some values are not valid')
         skillScore = 0
 
     return skillScore
